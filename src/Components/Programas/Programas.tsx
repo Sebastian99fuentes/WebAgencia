@@ -1,5 +1,5 @@
 const Programas = () => (
-    <section id="programas" className="py-20 bg-gray-100 flex flex-col justify-center items-center text-center px-4">
+    <section id="programas" className="py-10 flex flex-col justify-center items-center text-center px-4">
     <div className="max-w-6xl mx-auto text-center">
       <h2 className="text-3xl font-bold text-blue-700 mb-10">Programas</h2>
       <div className="grid md:grid-cols-3 gap-8 text-left">

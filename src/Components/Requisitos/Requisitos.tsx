@@ -1,6 +1,6 @@
 const Requisitos = () => (
-
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <section id="Requisitos" className="py-10 flex flex-col justify-center items-center text-center px-4">
+              <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -74,6 +74,8 @@ const Requisitos = () => (
         </div>
       </div>
   
+      </section>
+
 );
 
 export default Requisitos;

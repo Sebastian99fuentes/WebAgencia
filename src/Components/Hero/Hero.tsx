@@ -23,7 +23,7 @@ const Hero = () => (
                TU EXPERIENCIA INTERNACIONAL COMIENZA AQUÍ
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-               En <strong>[Nombre de tu agencia]</strong> creemos que viajar, trabajar y aprender en el extranjero transforma vidas. 
+               En <strong>GoNexo</strong> creemos que viajar, trabajar y aprender en el extranjero transforma vidas. 
       Nuestro compromiso es acompañarte desde el primer paso hasta el regreso, ofreciéndote programas seguros, personalizados y accesibles para que vivas tu próxima gran aventura.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
