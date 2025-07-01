@@ -11,16 +11,16 @@ const Contacto = () => {
           {/* <img src="/images/mapa.jpg" alt="Mapa ubicación" className="w-full h-full object-cover" /> */}
           
           {/* Opción 2: iframe Google Maps */}
-          <iframe
-            title="Mapa Ubicación"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.9602558253067!2d-122.08424968469207!3d37.42206577982571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb736e0f6ca87%3A0x76a92e66ccfc2f8a!2sGoogleplex!5e0!3m2!1ses-419!2sec!4v1687424455245!5m2!1ses-419!2sec"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen={false}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+<iframe
+  title="Ubicación Edificio Smerald"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.7031550736321!2d-78.4830753!3d-0.182621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a875b6644d1%3A0x59b109aae61e6382!2sEdificio%20Smerald!5e0!3m2!1ses-419!2sec!4v1719809485376!5m2!1ses-419!2sec"
+  width="100%"
+  height="400"
+  style={{ border: 0 }}
+  allowFullScreen={true}
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
         </div>
         
         {/* Info de contacto */}
@@ -29,7 +29,7 @@ const Contacto = () => {
           
           <div>
             <h3 className="font-semibold text-lg">Dirección</h3>
-            <p>Calle Falsa 123, Ciudad, País</p>
+            <p>RG89+W6H, n 34 328, Quito 170135</p>
           </div>
           
           <div>

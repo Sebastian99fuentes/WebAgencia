@@ -3,3 +3,7 @@
     width: 100px;  /* Ajusta el tamaño según lo que necesites */
     height: auto;
   }
+  
+  a {
+  text-decoration: none;
+}

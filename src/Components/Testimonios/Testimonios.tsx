@@ -27,8 +27,8 @@ const testimonios = [
 ];
 
 const Testimonios = () => (
-  //  <section id="testimonios" className="bg-gray-100 py-16 px-4">
-     <section id="testimonios" className="h-screen bg-gray-100 flex flex-col justify-center items-center text-center px-4">
+  
+     <section id="testimonios" className="py-20 bg-gray-100 flex flex-col justify-center items-center text-center px-4">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold text-blue-700">Testimonios</h2>
       </div>

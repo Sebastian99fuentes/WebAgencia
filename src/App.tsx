@@ -10,8 +10,9 @@ import Testimonios from './Components/Testimonios/Testimonios';
 function App() {
   return (
     <>
-      <Navbar />
-      <main className="pt-20">
+   
+ <Navbar />
+      <main className="pt-10 space-y-10">
         <section id="inicio"><Hero /></section>
         <section id="programas"><Programas /></section>
         <section id="requisitos"><Requisitos /></section>
@@ -19,6 +20,8 @@ function App() {
         <section id="contacto"><Contacto /></section>
       </main>
       <Footer />
+
+     
     </>
   );
 }
