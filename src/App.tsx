@@ -31,7 +31,7 @@ function App() {
          ]}
           />
                   <ImgBar
-         head="Anfitriones Profecional Exchange"
+         head="Anfitriones Professional Exchange"
          content="En el programa Professional Exchange, nuestros anfitriones desempeñan un papel clave al ofrecer un entorno laboral enriquecedor y profesional a estudiantes y jóvenes talentosos de todo el mundo. A través de su guía y apoyo, los participantes desarrollan habilidades prácticas, mejoran su dominio del idioma y se sumergen en una cultura laboral internacional. Aquí te presentamos a algunos de los anfitriones que han hecho posible estas experiencias únicas."
          images={[
          { src: '/images/Programas/Pro.webp', alt: 'Work and Travel' },
