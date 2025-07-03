@@ -12,18 +12,18 @@ const testimonios = [
   {
     nombre: 'Laura M.',
     texto: 'Work & Travel cambió mi vida. Hice amigos de todo el mundo y mejoré mi inglés más de lo que imaginaba.',
-    imagen: '/image1.png',
+    imagen: '/images/Programas/Test2.webp',
   },
   {
     nombre: 'Carlos G.',
     texto: 'Gracias al programa Professional Exchange, obtuve una pasantía en EE.UU. ¡Fue el impulso que necesitaba!',
-     imagen: '/image.png',
+     imagen: '/images/Programas/Test5.webp',
   },
-  {
-    nombre: 'Daniela R.',
-    texto: 'Tomar un curso de idiomas en Canadá fue una de las mejores decisiones que he tomado.',
-     imagen: '/image1.png',
-  },
+  // {
+  //   nombre: 'Daniela R.',
+  //   texto: 'Tomar un curso de idiomas en Canadá fue una de las mejores decisiones que he tomado.',
+  //    imagen: '/images/Programas/Test4.webp',
+  // },
 ];
 
 const Testimonios = () => (
@@ -43,7 +43,9 @@ const Testimonios = () => (
         </div>
        <div  className="max-w-6xl mx-auto text-center">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                        <h2 className="text-3xl font-bold text-blue-700">Testimonios</h2>
+                        <h2 
+                        style={{ color: 'oklch(52.7% 0.154 150.069)' }}
+                        className="text-3xl font-bold text-blue-700">Testimonios</h2>
           </div>
       <div className="text-center mb-10">
       
@@ -53,9 +55,9 @@ const Testimonios = () => (
         <CCarousel controls indicators transition="crossfade">
           {testimonios.map((t, index) => (
             <CCarouselItem key={index}>
-              <CImage className="d-block w-100 rounded" src={t.imagen} alt={`Testimonio ${index + 1}`} />
-              <CCarouselCaption className="d-none d-md-block bg-white bg-opacity-75 rounded p-3 mt-2">
-                <h5 className="text-blue-700 font-semibold">{t.nombre}</h5>
+              <CImage className=" h-250 object-cover rounded" src={t.imagen} alt={`Testimonio ${index + 1}`} />
+              <CCarouselCaption className=" bg-white bg-opacity-75 rounded p-3 mt-2">
+                <h5 className="font-semibold">{t.nombre}</h5>
                 <p className="text-gray-700 italic">{t.texto}</p>
               </CCarouselCaption>
             </CCarouselItem>

@@ -1,3 +1,6 @@
+
+import "./Requisitos.css";
+
 const Requisitos = () => (
       <section id="Requisitos" className="py-10 flex flex-col justify-center items-center text-center px-4">
               <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -15,7 +18,9 @@ const Requisitos = () => (
         </div>
        <div  className="max-w-6xl mx-auto text-center">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-               <h2 className="text-3xl font-bold text-blue-700 mb-10">Requisitos y Costos</h2>
+               <h2
+                style={{ color: 'oklch(52.7% 0.154 150.069)' }}  
+               className="text-3xl font-bold text-blue-700 mb-10">Requisitos y Costos</h2>
           </div>
  <div className="max-w-6xl mx-auto text-center">
       
@@ -23,7 +28,7 @@ const Requisitos = () => (
 
         {/* Work & Travel */}
         <div className="p-6 border rounded shadow hover:shadow-lg transition bg-white">
-          <h3 className="text-xl font-semibold text-blue-600 mb-2">Work & Travel</h3>
+          <h3 className="text-xl font-semibold text-blue-600 h3 mb-2">Work & Travel</h3>
           <ul className="text-gray-700 text-sm list-disc ml-4 space-y-1">
             <li>Edad: 18-28 años</li>
             <li>Ser estudiante universitario activo</li>
@@ -35,7 +40,7 @@ const Requisitos = () => (
 
         {/* Professional Exchange */}
         <div className="p-6 border rounded shadow hover:shadow-lg transition bg-white">
-          <h3 className="text-xl font-semibold text-blue-600 mb-2">Professional Exchange</h3>
+          <h3 className="h3 text-xl font-semibold text-blue-600 mb-2">Professional Exchange</h3>
           <ul className="text-gray-700 text-sm list-disc ml-4 space-y-1">
             <li>Edad: hasta 35 años</li>
             <li>Ser graduado o en último año de universidad</li>
@@ -47,7 +52,7 @@ const Requisitos = () => (
 
         {/* Cursos de Idiomas */}
         <div className="p-6 border rounded shadow hover:shadow-lg transition bg-white">
-          <h3 className="text-xl font-semibold text-blue-600 mb-2">Cursos de Idiomas</h3>
+          <h3 className=" h3 text-xl font-semibold text-blue-600 mb-2">Cursos de Idiomas</h3>
           <ul className="text-gray-700 text-sm list-disc ml-4 space-y-1">
             <li>Edad: desde 16 años</li>
             <li>No se requiere nivel previo</li>

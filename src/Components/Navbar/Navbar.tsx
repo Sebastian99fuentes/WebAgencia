@@ -46,7 +46,9 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a key={item.name} href={item.href}   
-               className="decoration-none">
+              style={{ color: 'oklch(52.7% 0.154 150.069)' }}
+              className="hover:underline"
+              >
                 {item.name}
               </a>
             ))}
@@ -83,6 +85,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
                     <a
                       key={item.name}
                       href={item.href}
+                       style={{ color: 'oklch(52.7% 0.154 150.069)' }}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
